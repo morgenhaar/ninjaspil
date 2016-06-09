@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <title>Casual Game for Friday</title>
+
+    <script src="../createjs-2015.11.26.min.js"></script>
+    <script src="spaceHero.js"></script>
+<style>
+
+    body {
+        height: 100vh;
+        background: rgba(241,231,103,1);
+        background: -moz-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+        background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+        background: -webkit-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+        background: -o-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+        background: -ms-linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+        background: linear-gradient(45deg, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=1 );
+    }
+
+    canvas {
+        background-image: url("../img/ninjaback.jpg");
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 1000px;
+    }
+
+    #textboks {
+        vertical-align: top;
+        text-align: center;
+        font: 15px Courier;
+    }
+
+</style>
+
+</head>
+<body onload="preload()">
+<h1 style="font: 30px Courier; text-align:center;">The zombies are getting a taste for asian cuisine</h1>
+<canvas id="boks" width="1000" height="600"></canvas>
+<p id="textboks">
+    Controls:<br>
+    Left and right arrow to move <br>
+    Down or space to throw stars <br><br>
+    Don't let the zombies get you!
+
+</p>
+</body>
+</html>

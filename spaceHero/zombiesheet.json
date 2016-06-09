@@ -1,0 +1,8 @@
+{
+  "framerate": 8,
+  "images": ["../img/zombieSheet.png"],
+  "frames": {"width":64, "height":56, "regX":0, "regY":0},
+  "animations": {
+    "walk": [0,7]
+  }
+}
